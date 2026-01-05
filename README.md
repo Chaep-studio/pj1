@@ -48,4 +48,15 @@ npm run build
 npm start
 ```
 
+### Internet Deployment
+
+To make your website accessible on the internet, follow the comprehensive guide in [INTERNET_DEPLOYMENT.md](INTERNET_DEPLOYMENT.md) which includes:
+
+- **Vercel deployment** (easiest, recommended)
+- **Netlify deployment** 
+- **Cloud provider deployment** (AWS, Google Cloud, Azure)
+- **VPS self-hosting** with Nginx and SSL
+- **Docker deployment** options
+- **Domain setup** and SSL configuration
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
