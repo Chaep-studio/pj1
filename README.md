@@ -29,8 +29,34 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment
+
+This project is ready for production deployment. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+
+### Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+### Self-hosting
+
+The project is configured with `output: "standalone"` for easy self-hosting on any Node.js server or container platform.
+
+```bash
+npm run build
+npm start
+```
+
+### Internet Deployment
+
+To make your website accessible on the internet, follow the comprehensive guide in [INTERNET_DEPLOYMENT.md](INTERNET_DEPLOYMENT.md) which includes:
+
+- **Vercel deployment** (easiest, recommended)
+- **Netlify deployment** 
+- **Cloud provider deployment** (AWS, Google Cloud, Azure)
+- **VPS self-hosting** with Nginx and SSL
+- **Docker deployment** options
+- **Domain setup** and SSL configuration
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
